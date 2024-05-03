@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg {
+  background: url("./assets/bg/bg-1.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 3rem 0;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-right: 1.5rem;
+}
+
+.header ul li a {
+  color: white;
+  font-size: 2rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero div svg {
+  width: 120rem;
+  max-width: 100%;
+  position: relative;
+  top: -5rem;
+}
+
+.hero div:last-child {
+  position: relative;
+  top: -5rem;
+}
+
+.hero div:nth-child(2) {
+  width: 60vw;
+  margin: 0 auto;
+  background-color: #030131;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero div:nth-child(2) h3 {
+  font-size: 3.5rem;
+  color: #88aac6;
+  font-weight: 400;
+}
+
+.hero div:nth-child(2) h3:last-child {
+  font-size: 3.5rem;
+  color: #fbbe4a;
+  padding-top: 1.5rem;
+}
